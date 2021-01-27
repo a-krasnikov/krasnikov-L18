@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:endColor="@color/purple_500"
+                android:startColor="@color/purple_200" />
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/ic_car" />
+
+    <item>
+        <shape>
+            <gradient
+                android:centerX="0.27"
+                android:centerY="0.6"
+                android:gradientRadius="20%"
+                android:startColor="@android:color/holo_red_light"
+                android:type="radial" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <gradient
+                android:centerX="0.73"
+                android:centerY="0.6"
+                android:gradientRadius="20%"
+                android:startColor="@android:color/holo_red_light"
+                android:type="radial" />
+        </shape>
+    </item>
+</layer-list>
