@@ -2,4 +2,5 @@
 <resources>
     <dimen name="btn_radius">24dp</dimen>
     <dimen name="image_size">128dp</dimen>
+    <dimen name="space">16dp</dimen>
 </resources>

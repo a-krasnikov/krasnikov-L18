@@ -9,6 +9,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton"
+        android:layout_marginTop="@dimen/space"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/background_btn_selector" />
@@ -17,15 +18,18 @@
         android:id="@+id/appCompatImageView"
         android:layout_width="@dimen/image_size"
         android:layout_height="@dimen/image_size"
+        android:layout_marginTop="@dimen/space"
         android:src="@drawable/layer_list" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivBitmap"
+        android:layout_marginTop="@dimen/space"
         android:layout_width="@dimen/image_size"
         android:layout_height="@dimen/image_size" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivGlide"
+        android:layout_marginTop="@dimen/space"
         android:layout_width="@dimen/image_size"
         android:layout_height="@dimen/image_size" />
 
